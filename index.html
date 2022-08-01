@@ -611,12 +611,29 @@
             </li>
           </ul>
         </div>
+        <div>
+          <p class="socials-desc">Підпишіться на розсилку</p>
+          <label class="footer-label" name="user-mail-send">
+            <input
+              class="footer-input-send"
+              type="email"
+              placeholder="E-mail"
+              name="user-mail-send"
+            />
+          </label>
+          <button class="footer-btn" type="submit">
+            Підписатися
+            <svg class="footer-send-icon" widht="24px" height="24px">
+              <use href="./images/icons.svg#send"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </footer>
     <!-- Modal window -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-btn" data-modal-close>
+        <button class="modal-btn" type="button" data-modal-close>
           <svg class="modal-btn-icon" width="11" height="11">
             <use href="./images/icons.svg#close"></use>
           </svg>
