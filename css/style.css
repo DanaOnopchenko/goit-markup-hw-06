@@ -776,7 +776,7 @@ img {
 }
 
 .form-message:hover,
-.form-message:hover {
+.form-message:focus {
   border: 1px solid var(--accent-color);
 }
 
