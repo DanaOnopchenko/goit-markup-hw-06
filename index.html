@@ -638,6 +638,55 @@
             <use href="./images/icons.svg#close"></use>
           </svg>
         </button>
+        <form class="modal-form">
+          <strong class="form-title">Залиште свої дані, ми вам передзвонимо</strong>
+          <div class="form-group" role="group">
+            <label class="form-wrap">
+              <span class="form-label">Ім'я</span>
+              <input class="form-input" type="text" name="user-name" />
+              <svg class="form-icon" width="18" height="18">
+                <use href="./images/icons.svg#person-black"></use>
+              </svg>
+            </label>
+            <label class="form-wrap">
+              <span class="form-label">Телефон</span>
+              <input class="form-input" type="tel" name="user-tel" />
+              <svg class="form-icon" width="18" height="18">
+                <use href="./images/icons.svg#phone-black"></use>
+              </svg>
+            </label>
+            <label class="form-wrap">
+              <span class="form-label">Пошта</span>
+              <input class="form-input" type="email" name="user-email" />
+              <svg class="form-icon" width="18" height="18">
+                <use href="./images/icons.svg#email-black"></use>
+              </svg>
+            </label>
+            <label class="form-wrap">
+              <span class="form-label">Коментар</span>
+              <textarea
+                class="form-message"
+                name=""
+                id=""
+                rows="10"
+                placeholder="Введіть текст"
+              ></textarea>
+            </label>
+          </div>
+          <label class="form-agreement">
+            <input class="form-checkbox visually-hidden" type="checkbox" name="agreement" />
+            <svg class="agreement-icon" width="16" height="15">
+              <use class="icon-check" href="./images/icons.svg#icon-check-blue"></use>
+              <use class="icon-uncheck" href="./images/icons.svg#nocheck"></use>
+            </svg>
+
+            <span class="agreement-txt"
+              >Погоджуюся з розсилкою та приймаю
+              <a class="agreement-link" href="">Умови договору</a></span
+            >
+          </label>
+          <button class="form-btn" type="submit">Відправити</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
